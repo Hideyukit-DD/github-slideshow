@@ -23,7 +23,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <p><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></p>
+                <p><a href="${pageContext.request.contextPath}/index">タスク一覧に戻る</a></p>
                 <p><a href="${pageContext.request.contextPath}/edit?id=${task.id}">このタスクを変更する</a></p>
             </c:when>
             <c:otherwise>
